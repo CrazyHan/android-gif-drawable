@@ -16,7 +16,7 @@ import org.robolectric.res.ResName;
 import static org.assertj.core.api.Assertions.assertThat;
 
 @RunWith(RobolectricGradleTestRunner.class)
-@Config(sdk = Build.VERSION_CODES.M, constants = BuildConfig.class)
+@Config(sdk = Build.VERSION_CODES.M, constants = BuildConfig.class, manifest = Config.NONE)
 public class GifViewUtilsTest {
 
 	@Test

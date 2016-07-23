@@ -16,7 +16,7 @@ import org.robolectric.annotation.Config;
 import static org.mockito.Mockito.verify;
 
 @RunWith(RobolectricTestRunner.class)
-@Config(sdk = Build.VERSION_CODES.M, constants = BuildConfig.class)
+@Config(sdk = Build.VERSION_CODES.M, constants = BuildConfig.class, manifest = Config.NONE)
 public class MultiCallbackTest {
 
 	@Mock View view;
