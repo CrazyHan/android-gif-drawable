@@ -1,5 +1,6 @@
 ### 1.1.18
-Nothing yet
+- Native libraries joined into one file - reduced complexity, minimum API level increased to 9
+- Disposal first frame to previous treated as disposal to background instead of ignoring - [#330](https://github.com/koral--/android-gif-drawable/issues/330)
 
 ### 1.1.17
 - Mutex destroying in `GifTexImage2D` fixed 
